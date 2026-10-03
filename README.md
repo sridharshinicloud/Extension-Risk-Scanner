@@ -18,12 +18,13 @@ Cool Dark Mode: 65/100
 Notes Helper: 0/100
 
 
-Features
+Features:
 Scans every extension in a Chrome extensions folder
 Scores each one from 0 to 100 based on the permissions it requests
 Shows exactly why each extension got its score
 Works on Windows, macOS, and Linux
 Skips unreadable manifests instead of crashing
+
 Requirements
 Python 3.8 or newer
 No extra packages needed (uses only the standard library)
@@ -32,7 +33,7 @@ bash
 git clone https://github.com/sridharshinicloud/Extension-Risk-Scanner.git
 cd extension-risk-scanner
 
-Usage
+Usage:
 
 Scan the default Chrome extensions folder for your operating system:
 
@@ -53,7 +54,7 @@ Linux	~/.config/google-chrome/Default/Extensions
 
 Using Edge, Brave, or another Chrome profile? Pass its extensions folder as the argument.
 
-How the scoring works
+How the scoring works:
 
 Each extension starts at 0. Points are added for every risky permission it requests, and the total is capped at 100.
 
@@ -78,6 +79,7 @@ Score	Level
 The weights live in the RISKY dictionary at the top of extension_scanner.py, so you can adjust them to fit your own risk tolerance.
 
 Limitations
+
 Manifest only. It does not analyze the extension's JavaScript code yet, so it cannot detect eval, obfuscation, or suspicious network calls.
 No purpose check. It does not compare permissions against what the extension claims to do (e.g. a "dark mode" extension asking for history).
 Limited permission list. Only a handful of permissions are scored. Others, such as tabs, proxy, clipboardRead, and downloads, are not included yet.
