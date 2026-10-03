@@ -6,7 +6,6 @@ Important: a high score means an extension asks for powerful permissions, not th
 
 
 Example output:
-Screenshot:
 
 
 Scanning: C:\Users\you\AppData\Local\Google\Chrome\User Data\Default\Extensions
@@ -16,6 +15,8 @@ Cool Dark Mode: 65/100
   - <all_urls> (+25)
   - Manifest V2 (legacy) (+10)
 Notes Helper: 0/100
+
+
 Features
 Scans every extension in a Chrome extensions folder
 Scores each one from 0 to 100 based on the permissions it requests
