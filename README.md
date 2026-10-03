@@ -1,4 +1,4 @@
-# Extension-Risk-Scannner Extension Risk Scanner
+# Extension Risk Scanner
 
 A small Python tool that reads the manifest.json of your installed Chrome extensions, checks them for risky permissions, and ranks them from highest to lowest risk, with a plain-English list of reasons for each score.
 
@@ -29,7 +29,7 @@ Python 3.8 or newer
 No extra packages needed (uses only the standard library)
 Install
 bash
-git clone https://github.com/sridharshinicloud/extension-risk-scanner.git
+git clone https://github.com/sridharshinicloud/Extension-Risk-Scanner.git
 cd extension-risk-scanner
 
 Usage
