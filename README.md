@@ -9,6 +9,7 @@ Example output:
 
 
 Scanning: C:\Users\you\AppData\Local\Google\Chrome\User Data\Default\Extensions
+
 Cool Dark Mode: 65/100
   - cookies (+15)
   - history (+15)
